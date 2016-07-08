@@ -1,12 +1,13 @@
 //
 //  AppDelegate.m
 //  HXProvincialCitiesCountiesPickerview
-//
+//  github:https://github.com/huangxuan518 博客：blog.libuqing.com
 //  Created by 黄轩 on 16/7/8.
 //  Copyright © 2016年 黄轩. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "HXViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    HXViewController *vc = [HXViewController new];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = nav;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

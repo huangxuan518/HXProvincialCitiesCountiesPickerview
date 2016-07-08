@@ -7,25 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4983EE21D2F9D9F00A497F9 /* xiaoguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4983EE11D2F9D9F00A497F9 /* xiaoguo.gif */; };
 		E4E9F9B91D2F56E500993422 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E9F9B81D2F56E500993422 /* main.m */; };
 		E4E9F9BC1D2F56E500993422 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E9F9BB1D2F56E500993422 /* AppDelegate.m */; };
-		E4E9F9BF1D2F56E500993422 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E9F9BE1D2F56E500993422 /* ViewController.m */; };
-		E4E9F9C21D2F56E500993422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E9F9C01D2F56E500993422 /* Main.storyboard */; };
+		E4E9F9BF1D2F56E500993422 /* HXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E9F9BE1D2F56E500993422 /* HXViewController.m */; };
 		E4E9F9C41D2F56E500993422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E9F9C31D2F56E500993422 /* Assets.xcassets */; };
-		E4E9F9C71D2F56E500993422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E9F9C51D2F56E500993422 /* LaunchScreen.storyboard */; };
+		E4E9F9D01D2F589600993422 /* HXProvincialCitiesCountiesPickerview.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E9F9CF1D2F589600993422 /* HXProvincialCitiesCountiesPickerview.m */; };
+		E4E9F9D51D2F5A5C00993422 /* HXAddressManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E9F9D41D2F5A5C00993422 /* HXAddressManager.m */; };
+		E4E9F9D61D2F7F8B00993422 /* address.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4E9F9D11D2F5A1B00993422 /* address.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E4983EE11D2F9D9F00A497F9 /* xiaoguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xiaoguo.gif; sourceTree = "<group>"; };
 		E4E9F9B41D2F56E500993422 /* HXProvincialCitiesCountiesPickerview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXProvincialCitiesCountiesPickerview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E9F9B81D2F56E500993422 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4E9F9BA1D2F56E500993422 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4E9F9BB1D2F56E500993422 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E4E9F9BD1D2F56E500993422 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E4E9F9BE1D2F56E500993422 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E4E9F9C11D2F56E500993422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4E9F9BD1D2F56E500993422 /* HXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXViewController.h; sourceTree = "<group>"; };
+		E4E9F9BE1D2F56E500993422 /* HXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXViewController.m; sourceTree = "<group>"; };
 		E4E9F9C31D2F56E500993422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E4E9F9C61D2F56E500993422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4E9F9C81D2F56E500993422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4E9F9CE1D2F589600993422 /* HXProvincialCitiesCountiesPickerview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXProvincialCitiesCountiesPickerview.h; sourceTree = "<group>"; };
+		E4E9F9CF1D2F589600993422 /* HXProvincialCitiesCountiesPickerview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXProvincialCitiesCountiesPickerview.m; sourceTree = "<group>"; };
+		E4E9F9D11D2F5A1B00993422 /* address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = address.plist; sourceTree = "<group>"; };
+		E4E9F9D31D2F5A5C00993422 /* HXAddressManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXAddressManager.h; sourceTree = "<group>"; };
+		E4E9F9D41D2F5A5C00993422 /* HXAddressManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXAddressManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +64,18 @@
 		E4E9F9B61D2F56E500993422 /* HXProvincialCitiesCountiesPickerview */ = {
 			isa = PBXGroup;
 			children = (
+				E4983EE11D2F9D9F00A497F9 /* xiaoguo.gif */,
 				E4E9F9BA1D2F56E500993422 /* AppDelegate.h */,
 				E4E9F9BB1D2F56E500993422 /* AppDelegate.m */,
-				E4E9F9BD1D2F56E500993422 /* ViewController.h */,
-				E4E9F9BE1D2F56E500993422 /* ViewController.m */,
-				E4E9F9C01D2F56E500993422 /* Main.storyboard */,
+				E4E9F9BD1D2F56E500993422 /* HXViewController.h */,
+				E4E9F9BE1D2F56E500993422 /* HXViewController.m */,
+				E4E9F9CE1D2F589600993422 /* HXProvincialCitiesCountiesPickerview.h */,
+				E4E9F9CF1D2F589600993422 /* HXProvincialCitiesCountiesPickerview.m */,
+				E4E9F9D31D2F5A5C00993422 /* HXAddressManager.h */,
+				E4E9F9D41D2F5A5C00993422 /* HXAddressManager.m */,
 				E4E9F9C31D2F56E500993422 /* Assets.xcassets */,
-				E4E9F9C51D2F56E500993422 /* LaunchScreen.storyboard */,
 				E4E9F9C81D2F56E500993422 /* Info.plist */,
+				E4E9F9D11D2F5A1B00993422 /* address.plist */,
 				E4E9F9B71D2F56E500993422 /* Supporting Files */,
 			);
 			path = HXProvincialCitiesCountiesPickerview;
@@ -136,9 +146,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4E9F9C71D2F56E500993422 /* LaunchScreen.storyboard in Resources */,
 				E4E9F9C41D2F56E500993422 /* Assets.xcassets in Resources */,
-				E4E9F9C21D2F56E500993422 /* Main.storyboard in Resources */,
+				E4983EE21D2F9D9F00A497F9 /* xiaoguo.gif in Resources */,
+				E4E9F9D61D2F7F8B00993422 /* address.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,32 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4E9F9BF1D2F56E500993422 /* ViewController.m in Sources */,
+				E4E9F9BF1D2F56E500993422 /* HXViewController.m in Sources */,
+				E4E9F9D51D2F5A5C00993422 /* HXAddressManager.m in Sources */,
 				E4E9F9BC1D2F56E500993422 /* AppDelegate.m in Sources */,
 				E4E9F9B91D2F56E500993422 /* main.m in Sources */,
+				E4E9F9D01D2F589600993422 /* HXProvincialCitiesCountiesPickerview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E4E9F9C01D2F56E500993422 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4E9F9C11D2F56E500993422 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E4E9F9C51D2F56E500993422 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4E9F9C61D2F56E500993422 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E4E9F9C91D2F56E500993422 /* Debug */ = {
@@ -261,7 +254,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = HXProvincialCitiesCountiesPickerview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = blog.libuqing.com.HXProvincialCitiesCountiesPickerview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +267,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = HXProvincialCitiesCountiesPickerview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = blog.libuqing.com.HXProvincialCitiesCountiesPickerview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +295,7 @@
 				E4E9F9CD1D2F56E500993422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
